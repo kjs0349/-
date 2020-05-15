@@ -268,3 +268,18 @@ header .inner .description li a{
     font-size: 17px;
     font-weight: 700;
 }
+
+/* LAB */
+body .lab {
+    background-color: #393F7D;
+    padding: 60px 0;
+}
+body .lab a {
+    display: block;
+    width: 1170px;
+    height: 455px;
+    margin: 0 auto;
+}
+body .lab img {
+    
+}
