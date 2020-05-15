@@ -167,7 +167,7 @@ header .inner .description li a{
     font-size: 30px;
     font-weight: 600;
     padding-bottom: 25px;
-    padding-left: 20px;
+    margin-left: 20px;
     display: inline-block;
     border-bottom: 1px solid;
 }
@@ -226,4 +226,45 @@ header .inner .description li a{
     font-size: 12px;
     font-weight: 200;
     line-height: 1.4;
+}
+
+/* TRIP */
+.trip {
+    padding: 60px 50px;
+    background-color: #F3F8FB;
+}
+.trip .title {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    margin-left: 20px;
+    display: inline-block;
+    border-bottom: 1px solid;
+    margin-bottom: 30px;
+}
+.trip .description {
+    padding-left: 20px;
+    color: #8484A4;
+    margin-bottom: 25px;
+}
+.trip .trip__tiles {
+    display: flex;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+.trip .trip__tiles li {
+}
+.trip .trip__tiles li a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.trip .trip__tiles li a img {
+    width: 198px;
+    height: 198px;
+    margin-bottom: 20px;
+}
+.trip .trip__tiles li a .trip__tiles__description {
+    font-size: 17px;
+    font-weight: 700;
 }
