@@ -110,7 +110,7 @@ header .inner .description li a{
 
 /* BODY */
 .introduce {
-    padding: 90px 50px;
+    padding: 90px 120px;
 }
 .introduce .about {
     display: flex;
@@ -230,7 +230,7 @@ header .inner .description li a{
 
 /* TRIP */
 .trip {
-    padding: 60px 50px;
+    padding: 60px 120px;
     background-color: #F3F8FB;
 }
 .trip .title {
@@ -282,4 +282,47 @@ body .lab a {
 }
 body .lab img {
     
+}
+
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 50px 0 80px;
+}
+footer .logos {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+footer .logos li {
+    margin: 0 10px;
+}
+footer .logos i {
+    color: #47494C;
+    font-size: 35px;
+}
+footer .logos i:hover {
+    color: #2B56F5;
+}
+footer .brandimage {
+    margin-bottom: 25px;
+}
+footer .select {
+    margin-bottom: 25px;
+}
+footer .select a {
+    text-decoration: none;
+    color: black;
+}
+footer .select span {
+    display: inline-block;
+    height: 11px;
+    padding-left: 10px;
+    margin-right: 10px;
+    border-right: 1px solid;
+}
+footer .copyright {
+    color: #47494C;
+    font-size: 14px;
 }
