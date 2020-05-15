@@ -108,20 +108,122 @@ header .inner .description li a{
 }
 
 
+/* BODY */
+.introduce {
+    padding: 90px 50px;
+}
+.introduce .about {
+    display: flex;
+    justify-content: space-between;
+}
+.introduce .about__left {
+    margin-right: 20px;
+    padding-top: 60px;
+    padding-left: 20px;
+    width: 100%;
+}
+.introduce .about__left .title {
+    font-size: 30px;
+    font-weight: 600;
+    display: inline-block;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid;
+}
+.introduce .about__left .description {
+    font-size: 18px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+}
+.introduce .about__left .about__btn {
+    display: flex;
+}
+.introduce .about__left .about__btn li {
 
-
-
-header .inner .description li a{
+}
+.introduce .about__left .about__btn li a {
     text-decoration: none;
     color: #ffffff;
-    font-size: 20px;
-    font-weight: 500;
-    border-radius: 100px;
+    font-weight: 600;
+    display: block;
+    padding: 15px 10px;
+    margin-right: 5px;
+    background-color: rgb(16,91,212);
+}
+.introduce .about__right {
+    max-width: 540px;
+    max-height: 359px;
+    flex-grow: 1;
+}
+.introduce .about__right img {
+    width: 540px;
+    height: 359px;
 }
 
-header .inner .description li a{
+.introduce .why {
+    margin-top: 100px;
+}
+.introduce .why .title {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    display: inline-block;
+    border-bottom: 1px solid;
+}
+.introduce .why .tiles {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+.introduce .why .tiles li {
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+.introduce .why .tiles li:nth-child(1) {
+    padding-top: 70px;
+}
+.introduce .why .tiles li:nth-child(2) {
+    padding-top: 20px;
+}
+.introduce .why .tiles li:nth-child(3) {
+    padding-top: 100px;
+}
+.introduce .why .tiles li:nth-child(4) {
+
+}
+.introduce .why .tiles li a {
     text-decoration: none;
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 500;
+    
+}
+.introduce .why .tiles li a img {
+    margin-bottom: 20px;
+}
+.introduce .why .tiles li:nth-child(1) a img {
+    width: 255px;
+    height: 255px;
+}
+.introduce .why .tiles li:nth-child(2) a img {
+    width: 255px;
+    height: 350px;
+}
+.introduce .why .tiles li:nth-child(3) a img {
+    width: 255px;
+    height: 310px;
+}
+.introduce .why .tiles li:nth-child(4) a img {
+    width: 255px;
+    height: 254px;
+}
+.introduce .why .tiles li a .tiles__title {
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 10px;
+}
+.introduce .why .tiles li .tiles__description {
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 1.4;
 }
