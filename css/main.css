@@ -1,0 +1,127 @@
+/* 화살표 모양 */
+.triangle {display:inline-block; width:0; height:0; border-style:solid; border-width:4px;}
+.triangle.test_1 {border-color:#ffffff transparent transparent transparent;}
+/* 출처: https://uidevelop.tistory.com/46 [UI Develop] */
+
+
+/* HEADER */
+header {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background: url("https://www.solaseado.com/images/main-monet.jpg"); 
+    background-position: center center;
+    background-size: cover;
+}
+header .fix-header {
+    width: 100%;
+    /* position: fixed; */
+    /* background-color: rgba(4, 7, 57, 0.9); */
+}
+.header_nav {
+    max-width: 1140px;
+    height: 80px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_nav .main_logo a img {
+    
+}
+.header_nav .right_menu {
+    display: flex;
+    width: 901px;
+    justify-content: space-between;  
+}
+.header_nav .main_menu {
+    width: 695px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+.header_nav .main_menu li:nth-child(4) {
+    margin-right: 10px;
+}
+.header_nav .main_menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    padding: 10px 10px;
+}
+.header_nav .main_menu li a:hover {
+    color: #C6A381;
+}
+.header_nav .side_menu {
+    width: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+}
+.header_nav .side_menu li {
+    width: 100%;
+}
+.header_nav .side_menu a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.header_nav .side_menu a:hover {
+    background: #0738B3;
+    border-radius: 30px;
+}
+
+header .inner {
+    max-width: 1140px;
+    height: 90vh;
+    margin: 0 auto;
+    padding-top: 20%;
+    box-sizing: border-box;
+}
+header .inner .script {
+    max-width: 850px;
+}
+header .inner .title {
+    font-size: 52px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 20px;
+    word-break: keep-all;
+}
+header .inner .description {
+    display: flex;
+}
+header .inner .description li {
+    margin-right: 25px;
+}
+header .inner .description li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+
+
+header .inner .description li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 100px;
+}
+
+header .inner .description li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}

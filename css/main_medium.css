@@ -1,0 +1,10 @@
+/* HEADER */
+header {
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background: url("https://www.solaseado.com/images/main-monet-m.jpg");
+    background-position: center center;
+    background-size: cover;
+    
+}
